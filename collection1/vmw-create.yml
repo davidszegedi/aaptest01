@@ -6,11 +6,7 @@
 
   vars:
     instance_name: "dummy"
-
-  collections:
-  - name: community.vmware
-    source: https://galaxy.ansible.com
-
+  
   roles:
     - role: vmw
       #instance_role: "undefined"
