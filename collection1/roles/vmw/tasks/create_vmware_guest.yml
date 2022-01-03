@@ -1,6 +1,6 @@
 ---
 - name: Create a virtual machine from a template
-  vmware_guest:
+  community.vmware.vmware_guest:
     validate_certs: no
     datacenter: "{{ var_datacenter }}"
     cluster: "{{ var_cluster }}"
